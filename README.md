@@ -21,31 +21,35 @@ A comprehensive color correction application that uses ColorChecker charts to ca
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- OpenCV
-- NumPy
-- SciPy
-- scikit-learn
-- PIL (Pillow)
-- tkinter (usually included with Python)
-- colour-science
-- PyOpenColorIO
-- reportlab
+- Python 3.8 or higher (3.10–3.12 recommended for best compatibility)
+- pip (Python package manager)
+- **Tkinter** (for the GUI)
+  - On macOS, install with Homebrew: `brew install python-tk`
+  - On Ubuntu/Debian: `sudo apt-get install python3-tk`
+- (macOS only) Homebrew (`brew`) for system packages
 
-### Optional Dependencies
-
-- **Numba**: For JIT compilation performance improvements
-- **CuPy**: For GPU acceleration (requires CUDA-compatible GPU)
-
-### Install Dependencies
+### Create and Activate a Virtual Environment
 
 ```bash
-pip install opencv-python numpy scipy scikit-learn pillow colour-science PyOpenColorIO reportlab
+python3 -m venv colorfix_env
+source colorfix_env/bin/activate
 ```
 
-For optional GPU acceleration:
+### Install Python Dependencies
+
+**Note:** The requirements.txt covers most dependencies, but you must also install `scikit-image` and `OpenColorIO` (not `PyOpenColorIO` for Python 3.13+).
+
 ```bash
-pip install numba cupy-cuda11x  # Replace with appropriate CUDA version
+pip install -r requirements.txt
+pip install scikit-image OpenColorIO
+```
+
+If you want to use GPU acceleration, you’ll need to install `cupy` (not available for macOS ARM as of now).
+
+### Optional: For plotting features
+
+```bash
+pip install matplotlib
 ```
 
 ## Usage
@@ -119,6 +123,14 @@ Generate detailed correction reports including:
 - Delta E measurements
 - Correction parameters
 - Performance statistics
+
+## Troubleshooting
+
+- **Tkinter not found**: Make sure you have installed tkinter for your Python version. On macOS, use `brew install python-tk`. On Ubuntu/Debian, use `sudo apt-get install python3-tk`.
+- **PyOpenColorIO not found**: Use `OpenColorIO` instead, especially for Python 3.13+.
+- **scikit-image missing**: Install with `pip install scikit-image`.
+- **matplotlib warnings**: If you see warnings about matplotlib, install it with `pip install matplotlib`.
+- **Other missing modules**: Check the error message and install the missing package with pip.
 
 ## License
 
