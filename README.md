@@ -135,4 +135,4 @@ For issues and questions, please open an issue on the GitHub repository.
 - ColorChecker charts by X-Rite
 - OpenCV for computer vision capabilities
 - scikit-learn for machine learning algorithms
-- colour-science for color space transformations 
+- colour-science for color space transformations
