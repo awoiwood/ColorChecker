@@ -2,6 +2,8 @@
 
 A comprehensive color correction application that uses ColorChecker charts to calibrate and correct color accuracy in images. Supports multiple correction methods including polynomial regression, matrix transformation, and 3D LUT.
 
+## Its my ball of mud for you :)
+
 ## Features
 
 - **Multiple Correction Algorithms**: Polynomial regression, Matrix transformation, and 3D LUT
