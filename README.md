@@ -149,3 +149,4 @@ For issues and questions, please open an issue on the GitHub repository.
 - OpenCV for computer vision capabilities
 - scikit-learn for machine learning algorithms
 - colour-science for color space transformations
+- CIEDE 2000 https://github.com/lovro-i/CIEDE2000
