@@ -1,6 +1,7 @@
 # ColorFix - Advanced Color Correction Tool
 
 A comprehensive color correction application that uses ColorChecker Classic charts to calibrate and correct color accuracy in images. Supports multiple correction methods including polynomial regression, matrix transformation, and 3D LUT.
+<img width="3424" height="2280" alt="image" src="https://github.com/user-attachments/assets/b8080261-f647-4ddc-82f0-8142db708a4e" />
 
 ## Its my ball of mud for you :)
 
