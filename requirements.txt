@@ -1,0 +1,11 @@
+opencv-python>=4.8.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+Pillow>=10.0.0
+colour-science>=0.4.2
+PyOpenColorIO>=2.1.0
+reportlab>=4.0.0
+numba>=0.57.0
+cupy-cuda11x>=12.0.0; sys_platform != "darwin"
+cupy-cuda12x>=12.0.0; sys_platform != "darwin" 
