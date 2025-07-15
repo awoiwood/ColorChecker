@@ -11,10 +11,8 @@ A comprehensive color correction application that uses ColorChecker Classic char
 - **Multi-scale Processing**: Optimized for different image scales and color spaces
 - **Skin Tone Priority**: Specialized optimization for skin tones
 - **Greyscale Optimization**: Enhanced accuracy for neutral colors
-- **Real-time Color Difference Calculation**: CIEDE2000, CIEDE94, CIEDE76 metrics
+- **Real-time Color Difference Calculation**: CIEDE2000 metrics
 - **Interactive GUI**: Zoom, pan, and before/after comparison
-- **Batch Processing**: Process multiple images efficiently
-- **GPU Acceleration**: Optional CUDA support for faster processing
 - **Export Options**: ICC profiles, CUBE LUT files, and detailed reports
 
 ## Installation
