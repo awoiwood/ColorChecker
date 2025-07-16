@@ -81,7 +81,7 @@ python "color checker.py"
 
 #### 3D Look-Up Table (LUT)
 - High-precision color mapping
-- Supports various LUT formats (CUBE, custom)
+- Supports various LUT formats (CUBE, lut)
 - GPU-accelerated interpolation available
 
 ## Building with PyInstaller
@@ -103,18 +103,6 @@ The application includes several optimization features:
 - **Caching**: Intelligent caching of correction results
 
 ## Export Options
-
-### ICC Profiles
-Generate ICC profiles for use in other applications:
-- Matrix-based profiles for simple corrections
-- LUT-based profiles for complex transformations
-
-### CUBE LUT Files
-Export 3D LUT files compatible with:
-- DaVinci Resolve
-- Adobe Premiere Pro
-- Final Cut Pro
-- Other professional video editing software
 
 ### PDF Reports
 Generate detailed correction reports including:
